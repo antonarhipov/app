@@ -5,5 +5,5 @@ workflow "Build" {
 
 action "Test" {
   uses = "MrRamych/gradle-actions/openjdk-12@2.1"
-  args = "test"
+  args = "build"
 }
