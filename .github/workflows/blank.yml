@@ -10,4 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run a one-line script
+      uses: actions/setup-java@v1
       run: ./gradlew clean test
