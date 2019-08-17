@@ -7,8 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest    
+    runs-on: docker://openjdk
     steps:
     - name: Run a one-line script
-    - uses: docker://openjdk
       run: ./gradlew clean test
