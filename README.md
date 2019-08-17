@@ -1,3 +1,3 @@
 # app
 
-A little Spring app...
+A little Spring app.
