@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest    
     steps:
     - name: Run a one-line script
-      uses: docker://openjdk
+    - uses: docker://openjdk
       run: ./gradlew clean test
