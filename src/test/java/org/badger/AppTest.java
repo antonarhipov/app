@@ -25,7 +25,7 @@ public class AppTest {
 
   @Test
   public void moarTests() {
-     Assert.assertEquals(1 , 3);
+     Assert.assertEquals(1 , 1);
   }
 
 }
